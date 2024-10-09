@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Ur Trash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cash Ur Trash</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Dispose Dry Waste Easily and Get Paid!</h2>
+        <button onclick="schedulePickup()">Schedule a Pickup</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We help you dispose of dry waste safely and efficiently...</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Dry Waste Collection, E-waste Management, and more.</p>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div id="price-table"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
