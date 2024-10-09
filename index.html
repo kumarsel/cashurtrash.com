@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cash Ur Trash</title>
     <link rel="stylesheet" href="style.css">
+    <title>Cash Ur Trash</title>
 </head>
 <body>
     <header>
@@ -20,35 +20,67 @@
     </header>
 
     <section id="hero">
-        <h2>Dispose Dry Waste Easily and Get Paid!</h2>
-        <button onclick="schedulePickup()">Schedule a Pickup</button>
+        <h2>Your Dry Waste Management Solution</h2>
+        <p>Helping you dispose of dry waste easily and get paid!</p>
     </section>
 
     <section id="about">
         <h2>About Us</h2>
-        <p>We help you dispose of dry waste safely and efficiently...</p>
+        <p>We help our customers dispose of dry waste safely and efficiently through our professional services.</p>
+        <p>We aim to minimize our customers' efforts while contributing to a more eco-friendly environment.</p>
     </section>
 
     <section id="services">
         <h2>Our Services</h2>
-        <p>Dry Waste Collection, E-waste Management, and more.</p>
+        <h3>Dry Waste Collection</h3>
+        <p>We collect all types of dry waste, including newspapers, old books, metals, plastics, and more.</p>
+        <h3>E-Waste Management</h3>
+        <p>Safe and efficient disposal of electronic waste.</p>
+        <h3>How It Works</h3>
+        <p>Schedule a pickup through our website or app, and our team will handle the rest!</p>
     </section>
 
     <section id="pricing">
         <h2>Pricing</h2>
-        <div id="price-table"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type of Waste</th>
+                    <th>Amount Paid (₹/kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Newspaper</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Plastic (mixed)</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Iron</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
         <form id="contactForm">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
 
+    <footer>
+        <p>© 2024 Cash Ur Trash. All rights reserved.</p>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
+
